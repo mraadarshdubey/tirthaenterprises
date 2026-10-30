@@ -1,0 +1,42 @@
+/* Our Approach: approved revision 2, scoped to this section. */
+#manifesto.approach-section{background:#12372e;color:#f4f1e9;padding:96px clamp(64px,6.725vw,110px) 56px;min-height:820px;overflow:hidden;scroll-margin-top:0;font-family:'Cabinet Grotesk','Segoe UI',sans-serif;}
+.approach-section .approach-inner{max-width:1287px;margin:0 auto;}
+.approach-section .approach-upper{display:grid;grid-template-columns:minmax(0,1fr) 326px;gap:96px;min-height:524px;}
+.approach-section .approach-copy{min-width:0;}
+.approach-section .approach-eyebrow{margin:0;font-size:12px;font-weight:500;line-height:18px;letter-spacing:.16em;color:#dfe6dd;}
+.approach-section .approach-rule{display:block;width:56px;height:2px;background:#a68a4c;margin:20px 0 28px;}
+.approach-section .approach-title{font-family:'Cabinet Grotesk','Segoe UI',sans-serif;font-size:clamp(90px,8.07vw,120px);font-weight:400;line-height:1.02;letter-spacing:-.01em;margin:0;color:#f4f1e9;max-width:865px;}
+.approach-section .approach-title span,.approach-section .approach-title em{display:block;white-space:nowrap;}
+.approach-section .approach-title em{font-family:'Hero Serif',Georgia,serif;font-size:clamp(112px,8.88vw,132px);font-style:italic;font-weight:400;line-height:1.02;letter-spacing:-.015em;color:#c1ac78;}
+.approach-section .approach-body{max-width:760px;font-size:24px;font-weight:400;line-height:40px;letter-spacing:0;color:#dfe6dd;margin:28px 0 0;}
+.approach-section .approach-break{display:none;}
+.approach-section .approach-diagram{margin-top:54px;width:300px;height:390px;color:#a68a4c;max-width:100%;}
+.approach-section .approach-diagram text{fill:#f4f1e9;font-family:'Cabinet Grotesk','Segoe UI',sans-serif;font-size:12px;letter-spacing:.18em;font-weight:400;}
+.approach-section .approach-principles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:64px;border-top:1px solid rgba(244,241,233,.22);padding:32px 0 0;margin:0;list-style:none;}
+.approach-section .approach-principles li{min-width:0;}
+.approach-section .approach-principles h3{font-family:'Hero Serif',Georgia,serif;font-size:40px;font-weight:400;font-style:italic;line-height:48px;letter-spacing:0;color:#c1ac78;margin:0 0 10px;}
+.approach-section .approach-principles p{font-size:17px;line-height:26px;font-weight:400;color:#dfe6dd;margin:0;}
+@media(min-width:1400px){.approach-section .approach-break{display:block;}}
+@media(min-width:1200px) and (max-width:1399px){.approach-section .approach-upper{grid-template-columns:minmax(0,1fr) 280px;gap:64px;}.approach-section .approach-diagram{width:280px;height:auto;}.approach-section .approach-body{font-size:22px;line-height:34px;}.approach-section .approach-upper{padding-bottom:44px;}}
+@media(max-width:1199px){
+ #manifesto.approach-section{padding:80px 40px 48px;min-height:720px;scroll-margin-top:-16px;}
+ .approach-section .approach-upper{grid-template-columns:minmax(0,1fr) 220px;gap:40px;min-height:0;}
+ .approach-section .approach-eyebrow{font-size:11px;line-height:18px;letter-spacing:.12em;}
+ .approach-section .approach-title{font-size:clamp(46px,6.1vw,72px);}.approach-section .approach-title em{font-size:clamp(60px,7.2vw,86px);}
+ .approach-section .approach-body{font-size:19px;line-height:29px;}
+ .approach-section .approach-diagram{width:220px;height:auto;margin-top:68px;}
+ .approach-section .approach-principles{margin-top:64px;gap:28px;}
+ .approach-section .approach-principles h3{font-size:32px;line-height:40px;}.approach-section .approach-principles p{font-size:16px;line-height:25px;}
+}
+@media(max-width:767px){
+ #manifesto.approach-section{padding:64px 24px 40px;min-height:0;}
+ .approach-section .approach-upper{display:block;}
+ .approach-section .approach-eyebrow{font-size:10px;line-height:17px;letter-spacing:.12em;}
+ .approach-section .approach-rule{width:40px;margin:18px 0 24px;}
+ .approach-section .approach-title{font-size:clamp(37px,9.8vw,58px);line-height:1.08;}.approach-section .approach-title em{font-size:clamp(52px,13.6vw,76px);line-height:1.08;}
+ .approach-section .approach-body{font-size:18px;line-height:28px;margin-top:28px;}
+ .approach-section .approach-diagram{display:none;}
+ .approach-section .approach-principles{display:block;margin-top:40px;padding-top:0;}
+ .approach-section .approach-principles li{padding:24px 0;}.approach-section .approach-principles li+li{border-top:1px solid rgba(244,241,233,.22);}.approach-section .approach-principles li:last-child{padding-bottom:0;}
+ .approach-section .approach-principles h3{font-size:29px;line-height:36px;margin-bottom:8px;}
+}
